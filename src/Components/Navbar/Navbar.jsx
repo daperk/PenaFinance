@@ -6,6 +6,7 @@ function Navbar() {
   return (
     <nav>
       <img src={logo} alt="" />
+     
     </nav>
   )
 }
