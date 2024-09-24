@@ -9,7 +9,7 @@ import service_icon3 from '../../assets/service-icon-3.png'
 
 function Services() {
   return (
-    <div className='services'>
+    <div className='services' >
       <div className="service">
         <img src={service1} alt="" />
         <div className="caption">
