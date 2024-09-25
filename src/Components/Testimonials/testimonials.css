@@ -1,9 +1,11 @@
-.testimonials{
+.testimonials {
     margin: 80px auto;
     padding: 0 80px;
     position: relative;
 }
-.next-btn, .back-btn{
+
+.next-btn,
+.back-btn {
     position: absolute;
     top: 50%;
     right: 0;
@@ -12,43 +14,46 @@
     width: 50px;
     border-radius: 50%;
     cursor: pointer;
-    background: #212ea0;
+    background: #1b2480;
 }
 
-.back-btn{
+.back-btn {
     right: auto;
     left: 0;
 }
 
-.slider{
+.slider {
     overflow: hidden;
 }
-.slider ul{
+
+.slider ul {
     display: flex;
     width: 200%;
     overflow-x: hidden;
     transition: 0.5s;
+    align-items: stretch;
 }
 
-.slider ul li{
+.slider ul li {
     list-style: none;
     width: 50%;
     padding: 20px;
 }
 
 .slide {
-    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     padding: 40px;
     border-radius: 10px;
     color: #676767;
     line-height: 1.4;
+    min-height: 300px;
 }
 
-.slide img{
+.slide img {
     width: 65px;
     border-radius: 50%;
     margin-right: 10px;
-    border: 4px solid #212ea0;
+    border: 4px solid #1b2480;
 }
 
 .user-info {
@@ -58,6 +63,60 @@
     font-size: 15px;
 }
 
-.user-info h3{
-    color: #212ea0;
+.user-info h3 {
+    color: #1b2480;
+}
+
+/* --- media query --- */
+
+
+@media (max-width: 999px) {
+   .slide{
+    min-height: 400px;
+   }
+}
+
+@media (max-width: 800px) {
+    .testimonials {
+        padding: 0 40px;
+    }
+
+    .next-btn,
+    .back-btn {
+        padding: 10px;
+        width: 35px;
+    }
+
+    .testimonials ul li {
+        padding: 10px;
+    }
+
+    .slide {
+        padding: 10px;
+    }
+
+    .slide img {
+        width: 50px;
+        border: 3px solid #1b2480;
+    }
+}
+
+@media (max-width: 600px) {
+    .user-info{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .user-info h3{
+        font-size: 16px;
+    }
+    .slider p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .slide{
+        min-height: 385px;
+    }
 }

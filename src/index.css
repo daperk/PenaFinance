@@ -38,7 +38,7 @@ a {
 }
 
 .dark-btn {
-    background: #212ea0;
+    background: #1b2480;
     color: white;
     padding: 14px 25px;
     font-size: 16px;
@@ -56,3 +56,17 @@ a {
     margin-left: 10px;
 }
 
+/* --- media query --- */
+
+@media (max-width: 1200px){
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+    }
+    .dark-btn{
+        padding: 14px 22px;
+    }
+}

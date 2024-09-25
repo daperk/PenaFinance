@@ -16,7 +16,6 @@ function App() {
       <div className="container">
         <Title subtitle='Our Services' title='What We Offer' />
         <Services />
-        <Title subtitle='About us' title='This Is What We Do' />
         <About />
         <Title subtitle='Testimonials' title='What Our Clients Say' />
         <Testimonials />

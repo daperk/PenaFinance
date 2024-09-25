@@ -13,6 +13,7 @@
 
 .about-right{
     flex-basis: 56%;
+    margin-bottom: 60px;
 }
 
 .about-img{
@@ -23,7 +24,7 @@
 .about h3{
     font-weight: 600;
     font-size: 20px;
-    color: #212ea0;
+    color: #1b2480;
 }
 
 .about h2{
@@ -42,3 +43,22 @@
 .about-titles{
     margin-bottom: 60px;
 }
+
+/* --- media query --- */
+
+@media (max-width: 800px){
+    .about {
+        flex-direction: column;
+    }
+    .about-left{
+        flex-basis: 100%;
+        margin: 10px;
+        order: 2;
+    }
+    .about-right{
+        flex-basis: 100%;
+        text-align: center;
+    }
+ }
+
+ 
