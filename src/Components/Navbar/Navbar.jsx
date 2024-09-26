@@ -73,14 +73,14 @@ function Navbar() {
         </li>
         <li>
           <button className='btn'>
-            <Link to="contact" smooth={true} offset={-260} duration={500} onClick={handleMenuItemClick}>
+            <Link to="contact" smooth={true} offset={-220} duration={500} onClick={handleMenuItemClick}>
               {t('navbar.Contact us')} 
             </Link>
           </button>
         </li>
         <li>
-          <div className="language-switcher">
-            <button className='btn' onClick={() => changeLanguage('en')}>EN</button>
+          <div className="language-switcher"  onClick={handleMenuItemClick}>
+            <button className='btn' onClick={() => changeLanguage('en')} >EN</button>
             <button className='btn' onClick={() => changeLanguage('es')}>ES</button>
           </div>
         </li>

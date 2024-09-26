@@ -21,13 +21,12 @@ function App() {
       <Navbar />
       <Hero />
       <div className="container">
-        {/* Translating Titles and Subtitles */}
         <Title subtitle={t('services.subtitle')} title={t('services.title')} />
         <Services />
         <About />
         <Title subtitle={t('testimonials.subtitle')} title={t('testimonials.title')} />
         <Testimonials />
-        <Title subtitle={t('contact.subtitle')} title={t('contact.title')} />
+        <Title subtitle={t('contactT.subtitle')} title={t('contactT.title')} />
         <Contact />
         <Footer />
       </div>

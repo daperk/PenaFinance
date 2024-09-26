@@ -49,7 +49,8 @@ nav ul li{
 }
 
 .language-switcher button:hover {
-    background-color: #ddd; 
+    background-color: #d3d6ff; 
+    color: #212121;
 }
 
 .language-switcher button:focus {

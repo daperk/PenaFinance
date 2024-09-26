@@ -37,6 +37,20 @@ a {
     justify-content: center;
 }
 
+.btn:hover {
+    background-color: #8c93ff; 
+    color: #212121;
+}
+
+.btn:active {
+    box-shadow: 0 0 15px rgba(185, 219, 255, 0.7); /* Light box-shadow on click */
+    transform: scale(0.98); /* Optional: slight button press effect */
+  }
+
+.btn:focus {
+    outline: none;
+}
+
 .dark-btn {
     background: #1b2480;
     color: white;
@@ -50,6 +64,7 @@ a {
     align-items: center;
     justify-content: center;
 }
+
 
 .btn img{ 
     width: 20px;

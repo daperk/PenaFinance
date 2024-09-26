@@ -41,9 +41,9 @@ function Contact() {
         <h3>{t('contact.header')} <img src={msg} alt="" /></h3>
         <p>{t('contact.intro')}</p>
         <ul>
-          <li><img src={mail} alt="" />{t('contact.email')}</li>
-          <li><img src={phone} alt="" />{t('contact.phone')}</li>
-          <li><img src={location} alt="address" />{t('contact.address').split("\n").map((line, index) => <span key={index}>{line}<br /></span>)}</li>
+          <li><img src={mail} alt="" /><a href="mailto:Thepenafinance@gmail.com">Thepenafinance@gmail.com</a></li>
+          <li><img src={phone} alt="" /><a href="tel:+17863288321">+1 786-328-8321</a></li>
+          <li><img src={location} alt="address" /><span>Miami, FL, <br /> United States</span></li>
         </ul>
       </div>
       <div className="contact-col">
