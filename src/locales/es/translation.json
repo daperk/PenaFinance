@@ -1,0 +1,15 @@
+{
+    "services": {
+      "subtitle": "Nuestros Servicios",
+      "title": "Lo Que Ofrecemos"
+    },
+    "testimonials": {
+      "subtitle": "Testimonios",
+      "title": "Lo Que Dicen Nuestros Clientes"
+    },
+    "contact": {
+      "subtitle": "Contáctanos",
+      "title": "Ponte en Contacto"
+    }
+  }
+  

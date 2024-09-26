@@ -7,19 +7,27 @@ import About from './Components/About/About'
 import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
+import { useTranslation } from 'react-i18next'
 
 function App() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  }
+
   return (
-    <div>
+   <div>
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subtitle='Our Services' title='What We Offer' />
+        {/* Translating Titles and Subtitles */}
+        <Title subtitle={t('services.subtitle')} title={t('services.title')} />
         <Services />
         <About />
-        <Title subtitle='Testimonials' title='What Our Clients Say' />
+        <Title subtitle={t('testimonials.subtitle')} title={t('testimonials.title')} />
         <Testimonials />
-        <Title subtitle='Contact Us' title='Get in Touch' />
+        <Title subtitle={t('contact.subtitle')} title={t('contact.title')} />
         <Contact />
         <Footer />
       </div>

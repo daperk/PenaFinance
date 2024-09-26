@@ -41,12 +41,12 @@
 }
 
 .about-titles{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 /* --- media query --- */
 
-@media (max-width: 800px){
+@media (max-width: 1200px){
     .about {
         flex-direction: column;
     }
@@ -59,6 +59,15 @@
         flex-basis: 100%;
         text-align: center;
     }
+    .about-titles{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        text-align: center;
+        align-items: center;
+    }
  }
+
+ 
 
  

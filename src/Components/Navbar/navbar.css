@@ -32,6 +32,30 @@ nav ul li{
     display: none;
 }
 
+.language-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    gap: 10px;
+    margin-right: 20px; 
+}
+
+.language-switcher .btn {
+    border: none;
+    padding: 7px 16px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.language-switcher button:hover {
+    background-color: #ddd; 
+}
+
+.language-switcher button:focus {
+    outline: none;
+}
+
 /* --- media query --- */
 
 @media (max-width: 1000px){
@@ -43,7 +67,7 @@ nav ul li{
     }
 }
 
-@media (max-width: 840px){
+@media (max-width: 920px){
     nav {
         padding: 15px 0;
     }
@@ -69,5 +93,14 @@ nav ul li{
     }
     .hide-mobile-menu{
         right: -200px;
+    }
+    .language-switcher {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .language-switcher button {
+        font-size: 16px;
+        padding: 8px 16px;
     }
 }
