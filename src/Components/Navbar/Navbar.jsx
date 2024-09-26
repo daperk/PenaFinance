@@ -73,7 +73,7 @@ function Navbar() {
         </li>
         <li>
           <button className='btn'>
-            <Link to="contact" smooth={true} offset={-220} duration={500} onClick={handleMenuItemClick}>
+            <Link to="contact" smooth={true} offset={-200} duration={500} onClick={handleMenuItemClick}>
               {t('navbar.Contact us')} 
             </Link>
           </button>
