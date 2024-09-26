@@ -6,6 +6,7 @@ import user1 from '../../assets/user-1.png'
 import user2 from '../../assets/user-2.png'
 import user3 from '../../assets/user-3.png'
 import user4 from '../../assets/user-4.png'
+import { useTranslation } from 'react-i18next'
 
 
 function Testimonials() {
@@ -25,6 +26,8 @@ function Testimonials() {
     slider.current.style.transform = `translateX(${tx}%)`;
   }
 
+  const { t } = useTranslation();
+
   return (
     <div className='testimonials'>
       <img src={next} alt="" className='next-btn' onClick={slideFoward} />
@@ -40,7 +43,7 @@ function Testimonials() {
                   <span>Miami, FL</span>
                 </div>
               </div>
-              <p>I never thought tax season could be so easy! The folks at Pena Finance were super friendly and really helped me get the most out of my return. I'm so grateful!</p>
+              <p>{t('testimonialsc.testimonial1')}</p>
             </div>
           </li>
           <li>
@@ -52,7 +55,7 @@ function Testimonials() {
                   <span>Miami, FL</span>
                 </div>
               </div>
-              <p>Pena Finance feels like part of my team! They handle all my accounting needs with care and really understand my business. I can focus on what I do best, knowing they've got my back.</p>
+              <p>{t('testimonialsc.testimonial2')}</p>
             </div>
           </li>
           <li>
@@ -64,7 +67,7 @@ function Testimonials() {
                   <span>Miami, FL</span>
                 </div>
               </div>
-              <p>I was struggling with my credit score, but Pena Finance came to the rescue! They took the time to explain everything and helped me remove negative items. My score has never been better!</p>
+              <p>{t('testimonialsc.testimonial3')}</p>
             </div>
           </li>
           <li>
@@ -76,7 +79,7 @@ function Testimonials() {
                   <span>Miami, FL</span>
                 </div>
               </div>
-              <p>I can't thank Pena Finance enough for helping me secure a business loan! They made the process feel so simple and stress-free. I really felt supported the whole way through!</p>
+              <p>{t('testimonialsc.testimonial4')}</p>
             </div>
           </li>
         </ul>

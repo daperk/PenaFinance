@@ -1,15 +1,58 @@
 {
-    "services": {
-      "subtitle": "Nuestros Servicios",
-      "title": "Lo Que Ofrecemos"
+  "navbar": {
+    "Home": "Inicio",
+    "Services": "Servicios",
+    "About us": "Acerca",
+    "Testimonials": "Testimonios",
+    "Contact us": "Contáctanos"
+  },
+  "services": {
+    "subtitle": "Nuestros Servicios",
+    "title": "Lo Que Ofrecemos"
+  },
+  "testimonials": {
+    "subtitle": "Testimonios",
+    "title": "Lo Que Dicen Nuestros Clientes"
+  },
+  "contact": {
+    "subtitle": "Contáctanos",
+    "title": "Ponte en Contacto"
+  },
+  "hero": {
+    "title": "Construyendo tus Finanzas con Cuidado Experto - Impuestos, Crédito y Más.",
+    "description": "En Pena Finance, nos especializamos en impuestos, contabilidad, reparación de crédito y servicios financieros personalizados. Nuestro equipo experto está dedicado a ayudarte a lograr claridad y éxito financiero, sin importar tus objetivos. Déjanos guiarte en tu camino hacia el bienestar financiero.",
+    "button": "¡Comienza Hoy!"
+  },
+  "about": {
+    "title": "Acerca de PenaFinance",
+    "subtitle": "Ayudándote a alcanzar tus metas financieras.",
+    "paragraph1": "Nos encargamos de todos los aspectos de la preparación y presentación de impuestos. Ya sea que manejes impuestos personales o comerciales, nos aseguramos de que todo se haga con precisión y a tiempo. Nuestro equipo se especializa en maximizar tus reembolsos de impuestos mientras te ayudamos a navegar fácilmente por las complejas leyes fiscales.",
+    "paragraph2": "Nuestros servicios de reparación de crédito se centran en mejorar tu situación financiera, incluida la eliminación de cobros y la disputa de errores que pueden estar afectando tu puntaje crediticio. Creamos estrategias personalizadas para ayudarte a reconstruir y mantener un crédito sólido.",
+    "paragraph3": "Además de los servicios contables, ofrecemos asistencia con préstamos personales y comerciales, así como servicios integrales de asesoría financiera. Desde la contabilidad hasta la obtención del préstamo adecuado para tus objetivos, brindamos asesoramiento claro y experto para mantener tus finanzas en buen camino."
+  },
+  "testimonialsc" : {
+    "testimonial1": "¡Nunca pensé que la temporada de impuestos podría ser tan fácil! La gente de Pena Finance fue muy amable y realmente me ayudó a aprovechar al máximo mi devolución. ¡Estoy tan agradecida!",
+    "testimonial2": "¡PenaFinance se siente parte de mi equipo! Manejan todas mis necesidades contables con cuidado y realmente entienden mi negocio. Puedo concentrarme en lo que mejor hago, sabiendo que ellos me respaldan.",
+    "testimonial3": "Estaba luchando con mi puntaje crediticio, ¡pero Pena Finance vino al rescate! Se tomaron el tiempo de explicarme todo y me ayudaron a eliminar los elementos negativos. ¡Mi puntuación nunca ha sido mejor!",
+    "testimonial4": "¡No puedo agradecer lo suficiente a Pena Finance por ayudarme a conseguir un préstamo comercial! Hicieron que el proceso pareciera muy simple y sin estrés. ¡Realmente me sentí apoyado durante todo el proceso!"
+  },
+  "contact": {
+    "header": "¡Envíanos un mensaje! 👋",
+    "intro": "¡Contáctanos hoy! Estamos aquí para responder cualquier pregunta sobre nuestros servicios y ayudarte con tus objetivos financieros. Ya sea que necesites asesoría fiscal, reparación de crédito o servicios contables, nuestro amable equipo está listo para ayudar. Completa el formulario a continuación y te responderemos pronto. ¡Trabajemos juntos hacia tu éxito financiero!",
+    "email": "Thepenafinance@gmail.com",
+    "phone": "+1 786-328-8321",
+    "address": "Miami, FL,\n Estados Unidos",
+    "form": {
+      "nameLabel": "Tu Nombre",
+      "namePlaceholder": "Ingresa Tu Nombre",
+      "phoneLabel": "Número de Teléfono",
+      "phonePlaceholder": "Ingresa Tu Número de Teléfono",
+      "emailLabel": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa Tu Correo Electrónico",
+      "messageLabel": "Escribe tu mensaje aquí",
+      "messagePlaceholder": "Ingresa tu mensaje",
+      "submitButton": "Enviar Ahora"
     },
-    "testimonials": {
-      "subtitle": "Testimonios",
-      "title": "Lo Que Dicen Nuestros Clientes"
-    },
-    "contact": {
-      "subtitle": "Contáctanos",
-      "title": "Ponte en Contacto"
-    }
+    "result": "¡Gracias por tu mensaje! Te responderemos pronto."
   }
-  
+}

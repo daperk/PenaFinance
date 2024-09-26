@@ -1,15 +1,58 @@
 {
-    "services": {
-      "subtitle": "Our Services",
-      "title": "What We Offer"
+  "navbar": {
+    "Home": "Home",
+    "Services": "Services",
+    "About us": "About us",
+    "Testimonials": "Testimonials",
+    "Contact us": "Contact us"
+  },
+  "services": {
+    "subtitle": "Our Services",
+    "title": "What We Offer"
+  },
+  "testimonials": {
+    "subtitle": "Testimonials",
+    "title": "What Our Clients Say"
+  },
+  "contact": {
+    "subtitle": "Contact Us",
+    "title": "Get in Touch"
+  },
+  "hero": {
+    "title": "Building Your Finances with Expert Care - Taxes, Credit, and Beyond.",
+    "description": "At Pena Finance, we specialize in taxes, accounting, credit repair, and personalized financial services. Our expert team is dedicated to helping you achieve financial clarity and success, no matter your goals. Let us guide you on your journey to financial wellness.",
+    "button": "Get Started Today!"
+  },
+  "about": {
+    "title": "About PenaFinance",
+    "subtitle": "Helping you reach your financial goals.",
+    "paragraph1": "We handle all aspects of tax preparation and filing. Whether you're managing personal or business taxes, we ensure everything is done accurately and on time. Our team specializes in maximizing your tax returns while helping you navigate complex tax laws with ease.",
+    "paragraph2": "Our credit repair services focus on improving your financial standing, including collections removal and disputing errors that may be hurting your credit score. We create tailored strategies to help you rebuild and maintain strong credit.",
+    "paragraph3": "In addition to accounting services, we offer assistance with business and personal loans and comprehensive financial advisory services. From bookkeeping to securing the right loan for your goals, we provide clear, expert advice to keep your finances on track."
+  },
+  "testimonialsc" : {
+    "testimonial1": "I never thought tax season could be so easy! The folks at Pena Finance were super friendly and really helped me get the most out of my return. I'm so grateful!",
+    "testimonial2": "Pena Finance feels like part of my team! They handle all my accounting needs with care and really understand my business. I can focus on what I do best, knowing they've got my back.",
+    "testimonial3": "I was struggling with my credit score, but Pena Finance came to the rescue! They took the time to explain everything and helped me remove negative items. My score has never been better!",
+    "testimonial4": "I can't thank Pena Finance enough for helping me secure a business loan! They made the process feel so simple and stress-free. I really felt supported the whole way through!"
+  },
+  "contact": {
+    "header": "Send us a message! 👋",
+    "intro": "Contact us today! We're here to answer any questions about our services and assist you with your financial goals. Whether you need tax advice, credit repair, or accounting services, our friendly team is ready to help. Fill out the form below, and we'll get back to you soon. Let's work together towards your financial success!",
+    "email": "Thepenafinance@gmail.com",
+    "phone": "+1 786-328-8321",
+    "address": "Miami, FL,\n United States",
+    "form": {
+      "nameLabel": "Your Name",
+      "namePlaceholder": "Enter Your Name",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "Enter Your Phone Number",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Enter Your Email",
+      "messageLabel": "Write your message here",
+      "messagePlaceholder": "Enter your message",
+      "submitButton": "Submit Now"
     },
-    "testimonials": {
-      "subtitle": "Testimonials",
-      "title": "What Our Clients Say"
-    },
-    "contact": {
-      "subtitle": "Contact Us",
-      "title": "Get in Touch"
-    }
+    "result": "Thank you for your message! We'll get back to you soon."
   }
-  
+}

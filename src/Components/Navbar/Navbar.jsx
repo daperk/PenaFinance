@@ -52,26 +52,30 @@ function Navbar() {
       </Link>
       <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
         <li>
-          <Link to="hero" smooth={true} offset={0} duration={500} onClick={handleMenuItemClick}>{t('Home')}</Link>
+          <Link to="hero" smooth={true} offset={0} duration={500} onClick={handleMenuItemClick}>
+            {t('navbar.Home')} 
+          </Link>
         </li>
         <li>
-          <Link to="services" smooth={true} offset={-260} duration={500} onClick={handleMenuItemClick}>{t('Services')}</Link>
+          <Link to="services" smooth={true} offset={-260} duration={500} onClick={handleMenuItemClick}>
+            {t('navbar.Services')} 
+          </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} offset={-180} duration={500} onClick={handleMenuItemClick}>{t('About us')}</Link>
+          <Link to="about" smooth={true} offset={-180} duration={500} onClick={handleMenuItemClick}>
+            {t('navbar.About us')} {/* Updated translation for About us */}
+          </Link>
         </li>
         <li>
-          <Link to="testimonials" smooth={true} offset={-260} duration={500} onClick={handleMenuItemClick}>{t('Testimonials')}</Link>
+          <Link to="testimonials" smooth={true} offset={-260} duration={500} onClick={handleMenuItemClick}>
+            {t('navbar.Testimonials')} 
+          </Link>
         </li>
-        {/* <li>
-          <div className="language-switcher">
-            <button onClick={() => changeLanguage('en')}>EN</button>
-            <button onClick={() => changeLanguage('es')}>ES</button>
-          </div>
-        </li> */}
         <li>
           <button className='btn'>
-            <Link to="contact" smooth={true} offset={-260} duration={500} onClick={handleMenuItemClick}>{t('Contact us')}</Link>
+            <Link to="contact" smooth={true} offset={-260} duration={500} onClick={handleMenuItemClick}>
+              {t('navbar.Contact us')} 
+            </Link>
           </button>
         </li>
         <li>
