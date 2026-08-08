@@ -39,8 +39,6 @@
   "contact": {
     "header": "¡Envíanos un mensaje! 👋",
     "intro": "¡Contáctanos hoy! Estamos aquí para responder cualquier pregunta sobre nuestros servicios y ayudarte con tus objetivos financieros. Ya sea que necesites asesoría fiscal, reparación de crédito o servicios contables, nuestro amable equipo está listo para ayudar. Completa el formulario a continuación y te responderemos pronto. ¡Trabajemos juntos hacia tu éxito financiero!",
-    "email": "Thepenafinance@gmail.com",
-    "phone": "+1 786-328-8321",
     "address": "Miami, FL,\n Estados Unidos",
     "form": {
       "nameLabel": "Tu Nombre",

@@ -48,11 +48,7 @@ const TermsOfService = () => {
       <p>These Terms are governed by and construed in accordance with the laws of the State of Florida.</p>
 
       <h2>9. Contact Us</h2>
-      <p>If you have any questions about these Terms, please contact us at:</p>
-      <ul>
-        <li><strong>Email:</strong> thepenafinance@gmail.com</li>
-        <li><strong>Phone:</strong> 786-818-9387</li>
-      </ul>
+      <p>If you have any questions about these Terms, please reach out through the contact form on this website and we will get back to you.</p>
     </div>
   );
 };

@@ -1,8 +1,6 @@
 import React from 'react'
 import "./contact.css"
 import msg from "../../assets/msg-icon.png"
-import mail from "../../assets/mail-icon.png"
-import phone from "../../assets/phone-icon.png"
 import location from "../../assets/location-icon.png"
 import white_arrow from "../../assets/white-arrow.png"
 import { useTranslation } from 'react-i18next'
@@ -41,8 +39,6 @@ function Contact() {
         <h3>{t('contact.header')} <img src={msg} alt="" /></h3>
         <p>{t('contact.intro')}</p>
         <ul>
-          <li><img src={mail} alt="" /><a href="mailto:Thepenafinance@gmail.com">Thepenafinance@gmail.com</a></li>
-          <li><img src={phone} alt="" /><a href="tel:+17863288321">+1 786-328-8321</a></li>
           <li><img src={location} alt="address" /><span>Miami, FL, <br /> United States</span></li>
         </ul>
       </div>

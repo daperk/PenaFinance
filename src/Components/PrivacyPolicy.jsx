@@ -53,11 +53,7 @@ function PrivacyPolicy() {
       <p>We may update this Privacy Policy as necessary to reflect changes in our practices or the law. Please review this policy periodically.</p>
 
       <h2>7. Contact Us</h2>
-      <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-      <ul>
-        <li><strong>Email:</strong> thepenafinance@gmail.com</li>
-        <li><strong>Phone:</strong> 786-818-9387</li>
-      </ul>
+      <p>If you have any questions about this Privacy Policy, please reach out through the contact form on this website and we will get back to you.</p>
       <Footer />
     </div>
   );
